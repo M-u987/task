@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: #ffffff;
+    background-size: 100%;
+    background-repeat: repeat; */
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.head:hover{
+    transform: translateZ(100px);
+    transition: 1.5s;
+}
+.header{
+    /* width: 1265px; */
+    color: rgb(0, 0, 0);
+    background-color: #3E89EC;
+    box-shadow: -2PX -1px 17px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    /* width: 150%; */
+}
+.header{
+    background-color: #3E89EC;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li,h1,ul{
+    display: inline;
+    transition: 0.04s ease-in-out;
+}
+ul{
+    margin-right: 30px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial ;
+}
+a{
+    text-decoration: none;
+}
+.head{
+    font-size: 3.1rem;
+    font-weight: bold;
+    margin-left: 7%;
+}
+
+li{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: Arial;
+    margin-left: 20px;
+    font-weight: bold; 
+}
+li:hover{
+    color: white;
+    transform: translateZ(100px);
+    transition: 1s;
+}
+.head:hover{
+    color: white;
+    cursor: pointer;
+}
+.sh0:hover{
+    transform: translateZ(100px);
+    transition: 1.5s;
+}
+.sh0:hover{
+    color: white;
+    cursor: pointer;
+}
+.sh0{
+    margin-left: -466px;
+    margin-bottom: -20px;
+    font-family: emoji;
+    font-weight: bold;
+}
+.head1{
+    padding-top: 5%;;
+    text-align: center;
+    /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+}
+.para1{
+    padding: 5% ;
+
+}
+.hed1{
+    padding-top: 5%;
+    color: #3E89EC;
+}
+#totel{
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+#head{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+#totel{
+    align-items: flex-start;
+    padding: 20px 70px;
+    margin: 20px 10px;
+
+}
+.totel{ 
+    padding: 5%;
+} 
+.names{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.name{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.lname{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.numbers{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.mclass{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.anumber{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.others{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.email{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.message{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.nsrc{
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+.lsrc{
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+.msrc{
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+.asrc{
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+.esrc{
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+.mmsrc{
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+.sub{
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(33, 109, 206);
+    /* box-shadow: 0 10px 10px 0; */
+    cursor: pointer;
+    padding: 12px 20px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    /* margin: auto; */
+    margin-top: 3%;
+    margin-left: 50%;
+}
+#totel{
+    margin-left: 15%;
+     background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
+    width: 900px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(221, 221, 221);
+    border-image: initial;
+    border-radius: 12px;
+    padding: 20px;
+    height: 500px;
+}
+.section1{
+    display: flex;
+    justify-content: space-between  ;
+    /* align-items: center; */
+    /* background-color: #1900ff2b; */
+    box-shadow: 10px 10px;
+    background-color: bisque;
+    color: black;
+    margin-top: 5%;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+.About a{
+    color: black;
+}
+.bottom1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+.c{
+    margin: 0 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+.d{
+    width: 30px;
+}
+img{
+    vertical-align: middle;
+    border-style: none;
+}
+.page{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    padding: 5% 20% 5%;
+    margin:0 10%;
+}
+.page1{
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.page1:hover{
+    color:  rgb(33, 109, 206);
+}
+.fb{
+    background-color: #000000;
+    padding: 20px 0;
+    color: aliceblue;
+    text-align: center;
+}

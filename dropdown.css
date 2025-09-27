@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header .nav {
+    margin-right: 30px;
+    list-style: none;
+    /* padding: 1%; */
+    /* margin: 0;  */
+    display: flex;
+    gap: 1px;
+}
+
+.header .nav li {
+    position: relative;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+}
+
+/* Dropdown hidden by default */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    width: 3%;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 13;
+}
+.nav1{
+    color: black;
+}
+.nav1:hover{
+    color: white;
+    transform: translateZ(100px);
+    transition: 1s;
+}
+.nav2{
+    color: black;
+}
+.nav2:hover{
+    color: white;
+    transform: translateZ(100px);
+    transition: 1s;
+}
+.nav3{
+    color: black;
+}
+.nav3:hover{
+    color: white;
+    transform: translateZ(100px);
+    transition: 1s;
+}
+.nav4{
+    color: black;
+}
+.nav4:hover{
+    color: white;
+    transform: translateZ(100px);
+    transition: 1s;
+}
+
+.nav:hover{
+    transform: translateZ(100px);
+    transition: 1.5s;
+}
+
+.dropdown-content li {
+    display: block;
+    padding: 8px;
+    white-space: nowrap;
+}
+
+.dropdown-content li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.dropdown-content li:hover {
+    background-color: #fe323234;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
